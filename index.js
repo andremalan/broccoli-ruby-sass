@@ -21,7 +21,6 @@ function SassCompiler (inputTree, inputFile, outputFile, options) {
     imagePath: options.imagePath,
     style: options.outputStyle,
     sourceComments: options.sourceComments,
-    sourcemap: options.sourceMap || 'none',
     bundleExec: options.bundleExec,
     require: options.require,
     compass: options.compass || false,
